@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    background-color: #fafafa;
+}
+
+
+
+.colection-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.section-colection{
+    width: 1260px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.box-colection{
+    width: 400px;
+    height: 250px;
+    background-color: green;
+    margin-left: 28px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.img-colection{
+    width: 700px;
+    height: 350px;
+}
