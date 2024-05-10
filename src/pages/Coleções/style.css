@@ -61,5 +61,5 @@
 .texto:hover {
   opacity: 1;
   background: #ffffff83;
-  transition: all 0.3s ease;
+  transition: all 1.5s ease;
 }
