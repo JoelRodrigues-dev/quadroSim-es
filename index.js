@@ -1,23 +1,19 @@
-
-const imgsContainer = document.querySelector(".carrossel .container")
+const imgsContainer = document.querySelector(".carrossel .container");
 const img = document.querySelectorAll(".carrossel .container img");
 
+console.log(imgsContainer);
 
-console.log(imgsContainer)
-
-    console.log(img)
-
+console.log(img);
 
 let contador = 0;
 
-function slider(){
-    contador++
-   if(contador > img.length -1){
+function slider() {
+  contador++;
+  if (contador > img.length - 1) {
     contador = 0;
-   }
+  }
 
-   imgsContainer.style.transform = `translateX(${-contador * 100}%)`;
+  imgsContainer.style.transform = `translateX(${-contador * 100}%)`;
 }
 
-
-setInterval(slider, 4000);
+setInterval(slider, 6000);

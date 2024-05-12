@@ -1,53 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100vw;
-    height: 100vh;
-    background-color: #fafafa;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fafafa;
 }
 
-.profile{
-    width: 1316px;
-    height: 594px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 80px;
-    padding: 24px;
+.info-hero {
+  background-color: #fafafa;
+  width: 100%;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px rgb(221, 215, 215);
 }
 
-
-
-.profile-title{
-    font-family: "Montserrat", sans-serif;
-    font-size: 48px;
-    font-weight: bold;
-
+.logo {
+  width: 260px;
+  height: 260px;
 }
 
-.profile-sub-title{
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 42px;
-    margin-right: 42px;
-    
+.links-hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+.links {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 400;
+  margin-right: 24px;
+  text-decoration: none;
 }
 
-
-.profile-img{
-    width: 394px;
-    height: 492px;
-    border: solid 2px #fafafa;
-    border-radius: 40px
+.btn-contact {
+  font-family: "Noto Serif", serif;
+  margin-right: 48px;
+  width: 120px;
+  height: 35px;
+  font-size: 14px;
 }
 
+.profile {
+  width: 1316px;
+  height: 594px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  padding: 24px;
+}
+
+.profile-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.profile-sub-title {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 42px;
+  margin-right: 42px;
+}
+
+.profile-img {
+  width: 394px;
+  height: 492px;
+  border: solid 2px #fafafa;
+  border-radius: 40px;
+}
